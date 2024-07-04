@@ -1,0 +1,263 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+    margin-right: 10px;
+    transform: scale(2.4); 
+    transform-origin: center;
+}
+
+.tagline {
+    font-style: italic;
+    font-size: 15px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 5px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.search-bar button {
+    padding: 5px;
+    border: none;
+    background-color: white;
+    color: black;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+}
+
+.contact-info img {
+    height: 35px;
+    margin-right: 5px;
+}
+
+.contact-info span {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.icons a {
+    margin-left: 10px;
+}
+
+.icons img {
+    height: 50px;
+    width: 50px;
+}
+
+.navbar {
+    background-color: #8c7a6b;
+    overflow: hidden;
+}
+
+.nav-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item {
+    position: relative;
+}
+
+.nav-item a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+.nav-item a:hover {
+    background-color: #6e5e51;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown li {
+    padding: 12px 16px;
+}
+
+.dropdown li a {
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown li a:hover {
+    background-color: #ddd;
+}
+
+.nav-item:hover .dropdown {
+    display: block;
+}
+
+.footer {
+    background-color: #7b674e;
+    color: white;
+    padding: 20px 0;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.footer-section {
+    flex: 1;
+    padding: 20px;
+    min-width: 200px;
+}
+.footer-section h3 {
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.footer-section p, .footer-section a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+}
+.footer-section a:hover {
+    text-decoration: underline;
+}
+.footer-social {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+.footer-social a {
+    margin: 0 10px;
+}
+.footer-social img {
+    width: 30px;
+}
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid white;
+    margin-top: 20px;
+}
+.content-container {
+    padding: 20px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.description {
+    margin-bottom: 20px;
+}
+
+.description p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: black;
+}
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product-item {
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    max-width: 200px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    transition: transform 0.2s;
+}
+
+.product-item:hover {
+    transform: scale(1.05);
+    border-color: #bbb;
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.product-item h3 {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.product-item p {
+    margin: 5px 0;
+}
+
+.product-item .price {
+    color: red;
+    font-weight: bold;
+}
+
+.product-heading {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #f0f0f0; 
+    padding: 10px;
+}
+
+.product-heading h2 {
+    font-size:35px;
+    color: black;
+    margin: 0;
+    font-weight: 500; 
+    letter-spacing: -0.5px;
+}
